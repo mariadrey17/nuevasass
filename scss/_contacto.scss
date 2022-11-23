@@ -83,47 +83,42 @@
     
   
   
-  
-  /* media querie para dispositivos moviles medianos contacto*/
-  
-  
-  @media screen and (max-width:768px) 
-  {
-    .card {
-      width:100px ;
-      
-      image {
-  
-     height: 150px;
-      }
-  
-    }
-    
+
+/* media querie para dispositivos moviles medianos contacto*/
+
+
+@media screen and (max-width:768px) 
+{
+  .card {
+    width:100px ;
+
+  }
+  .card_image {
+    height: 150px;
   }
   
-  /*media querie para dispositivos pequeños contacto */
-  
-  @media screen and (max-width:460px) 
-  {
-    .caja-flex {
-    display: flex;
-    flex-direction: column;
-    }
-    .card {
-    width:200px ;
-    
-    
-    image {
-      width:400px;
-      height: 283px;
-      }
-  
-  
-    }
-  
-  
-    .mapa {
-    width: 352px;
-    }
+}
+
+/*media querie para dispositivos pequeños contacto */
+
+@media screen and (max-width:460px) 
+{
+  .caja-flex {
+  display: flex;
+  flex-direction: column;
   }
+  .card {
+  width:200px ;
+
+  }
+
+  .card_image {
+  width:400px;
+  height: 283px;
+  }
+  .mapa {
+  width: 352px;
+  }
+}
+
   

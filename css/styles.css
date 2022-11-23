@@ -72,7 +72,7 @@ form {
   .card {
     width: 100px;
   }
-  .card image {
+  .card_image {
     height: 150px;
   }
 }
@@ -85,7 +85,7 @@ form {
   .card {
     width: 200px;
   }
-  .card image {
+  .card_image {
     width: 400px;
     height: 283px;
   }
@@ -276,23 +276,41 @@ form {
 
 /* media querie para dispositivos moviles medianos contacto*/
 @media screen and (max-width: 768px) {
-  .card {
-    width: 100px;
+  .caja-flex {
+    width: 44rem;
+    height: 31rem;
+    margin-left: -3rem;
   }
-  .card image {
-    height: 150px;
+  .card {
+    width: 46rem;
+    height: 35rem;
+    margin-left: -2rem;
   }
 }
+.card_image {
+  height: 150px;
+}
+
+.mapa {
+  height: 31rem;
+}
+
 /*media querie para dispositivos pequeños contacto */
 @media screen and (max-width: 460px) {
+  .escribe-formulario {
+    display: flex;
+    justify-content: center;
+  }
   .caja-flex {
     display: flex;
     flex-direction: column;
   }
   .card {
-    width: 200px;
+    width: 20rem;
+    height: 27rem;
+    padding: 2rem;
   }
-  .card image {
+  .card_image {
     width: 400px;
     height: 283px;
   }

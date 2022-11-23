@@ -1,0 +1,44 @@
+/*Acá empieza contactos versión desktop */
+
+
+
+.caja-mala {
+    border:solid 0.20rem ;
+    padding:4rem;
+    display:inline-block;
+    font-size:1.6rem ;
+    width:1rem ;
+    height:1rem;
+    font-family:arial;
+    overflow:visible;
+    background-image:linear-gradient(to left ,grey, rgb(226, 96, 117)) ;
+  }
+  .card {
+    border:solid .1rem pink ;
+    width:20rem ;
+    padding:2rem;
+    position:relative;
+     
+  }
+  
+  .caja-flex {
+    display: flex;
+  }
+  
+  .adulg {
+    border:solid .1rem pink ;
+    width:20rem ;
+    padding:2rem;
+   
+  
+  }
+  
+  
+  
+  div {
+  
+    margin-top:50px ;
+    color:antiquewhite;
+    font-weight:bolder;
+  }
+  

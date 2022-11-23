@@ -211,13 +211,13 @@ align-items: center;
 @media screen and (max-width:768px) 
 {
 .caja-flex {
-  width: 44rem;
+  width: 42rem;
   height: 31rem;
   margin-left: -3rem;
    }
   .card {
   
-    width: 46rem;
+    width: 42rem;
     height: 35rem;
     margin-left: -2rem;
    }
@@ -230,27 +230,20 @@ align-items: center;
     height:31rem;
   }
 
-
- 
-  
-
-
-/*media querie para dispositivos pequeños contacto */
+  /*media querie para dispositivos pequeños contacto */
 
 @media screen and (max-width:460px) 
 {
-
-  .escribe-formulario{
-    display: flex;
-    justify-content: center;
-  }
   .caja-flex {
   display: flex;
   flex-direction: column;
+  
   }
   .card {
+ 
+   
     width: 20rem;
-    height: 27rem;
+    height: 22rem;
     padding: 2rem;
     
 

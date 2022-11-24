@@ -1,0 +1,20 @@
+
+    
+
+  .video-escuela {
+    width: 800px; 
+    height: 600px;
+  }
+  
+  
+  .grid  {
+    
+    display: grid;
+    grid-template-columns:1 , 1fr ;
+    grid-template-rows:4,1fr ;
+    }
+   
+    .grid div  {
+  
+    border:solid 2px rgb(245, 245, 245)
+    }

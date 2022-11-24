@@ -25,19 +25,6 @@ header {
   background-repeat: no-repeat;
 }
 
-.docentes {
-  display: grid;
-  grid-template-columns: 4, 1fr;
-  grid-template-rows: 4, 1fr;
-  grid-template-areas: "1 2";
-  border: solid 2px rgb(245, 245, 245);
-}
-
-.foto-profe {
-  height: 12rem;
-  width: 12rem;
-}
-
 /*Acá empieza contactos versión desktop */
 .caja-mala {
   border: solid 0.2rem;

@@ -9,15 +9,20 @@ body {
 
     background-color:$bg-body
     }
+    
+    footer { 
+        @extend .footer ;
+    }
+  
 
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:$pantalla-mediana) {
         body {
-       background-color:pink ;
+       background-color:rgb(226, 107, 127) ;
         }
      }
     
     
-    @media screen and (max-width :460px) 
+    @media screen and (max-width :$pantalla-pequeña) 
     {
         body {
        background-color:rgb(104, 61, 68) ;

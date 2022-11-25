@@ -12,7 +12,7 @@ body * {
 
 @media screen and (max-width: 768px) {
   body {
-    background-color: rgb(226, 107, 127);
+    background-color: pink;
   }
 }
 @media screen and (max-width: 460px) {
@@ -37,10 +37,6 @@ h1 {
 
 .grid div {
   border: solid 2px rgb(245, 245, 245);
-}
-
-.footer p, footer p {
-  color: blanchedalmond;
 }
 
 /*Index dispositivos medianos*/
@@ -87,59 +83,6 @@ h1 {
   color: blanchedalmond;
 }
 
-.card-muestra {
-  padding: 1rem;
-  margin-bottom: 5rem;
-}
-
-/*acá empieza Muestras */
-.grilla {
-  display: grid;
-}
-
-.Item5 {
-  display: flex;
-  justify-content: center;
-  background-image: linear-gradient(to left, grey, rgb(226, 96, 117));
-}
-
-.galeria {
-  /*puedo hacer algo con grid en galeria*/
-  display: flex;
-  flex-direction: column;
-  width: 536px;
-  height: 363px;
-}
-
-/* media querie para dispositivos moviles medianos muestras*/
-@media screen and (max-width: 768px) {
-  .galeria {
-    width: 348px;
-  }
-}
-/*media querie para dispositivos pequeños muestras  */
-/*tienda*/
-@media screen and (max-width: 460px) {
-  .tienda {
-    width: 318px;
-    height: 1770px;
-    margin-top: 10px;
-  }
-  .card-muestra {
-    width: 181px;
-    height: 500px;
-    margin-bottom: 50px;
-    margin-right: 65px;
-  }
-  .galeria {
-    width: 105px;
-    height: 106px;
-  }
-  .card-foto {
-    width: 50px;
-    height: 50px;
-  }
-}
 /*Acá empieza contactos versión desktop */
 h1 {
   color: blanchedalmond;
@@ -195,7 +138,7 @@ div {
   height: 20rem;
 }
 
-.boton, .card-muestra {
+.boton {
   padding: 1rem;
   margin-bottom: 5rem;
 }
@@ -220,12 +163,12 @@ form {
 @media screen and (max-width: 768px) {
   .caja-flex {
     display: grid;
-    grid-template-columns: 4, 1fr;
+    grid-template-columns: 2, 1fr;
     grid-template-rows: 2, 1fr;
     grid-template-areas: "card1 card2" "card 3 card 4";
   }
   .card {
-    width: 346px;
+    width: 100px;
   }
   .card_image {
     width: 11rem;
@@ -240,7 +183,7 @@ form {
   }
   .card {
     width: 20rem;
-    height: 25rem;
+    height: 22rem;
     padding: 2rem;
   }
   .card_image {

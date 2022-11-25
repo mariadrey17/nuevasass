@@ -134,5 +134,15 @@ form {
     width: 352px;
   }
 }
+@media screen and (max-width: 768px) {
+  body {
+    background-color: pink;
+  }
+}
+@media screen and (max-width: 460px) {
+  body {
+    background-color: rgb(104, 61, 68);
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

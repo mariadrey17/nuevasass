@@ -1,25 +1,9 @@
  
  @import "variables";
- @import "inicio";
+@import "inicio";
  @import "body";
  @import "header";
  @import "docentes";
  @import "contacto";
+ @import "mediaquery";
  
- @media screen and (max-width:768px) {
-    body {
-   background-color:pink ;
-    }
- }
-
-
- 
-
-
-
-@media screen and (max-width:460px) 
-{
-    body {
-   background-color:rgb(104, 61, 68) ;
-    }
- }

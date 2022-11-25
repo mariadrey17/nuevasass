@@ -1,20 +1,25 @@
 
     
-
+  
   .video-escuela {
     width: 800px; 
     height: 600px;
   }
   
-  
+  .container {
+    background-image:linear-gradient(to left grey , rgb(206, 119, 133));
+   
+  }
   .grid  {
     
     display: grid;
     grid-template-columns:1 , 1fr ;
     grid-template-rows:4,1fr ;
+    
     }
    
     .grid div  {
   
     border:solid 2px rgb(245, 245, 245)
     }
+    

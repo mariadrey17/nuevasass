@@ -1,3 +1,5 @@
+
+/*empieza docentes*/
 .docentes {
   display: grid;
         grid-template-columns:4 , 1fr ;
@@ -9,7 +11,9 @@
         
 
    }
-   
+   h1 {
+    color: blanchedalmond;
+   }
 
    .foto-profe {
     

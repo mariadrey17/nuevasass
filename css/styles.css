@@ -1,4 +1,8 @@
 @charset "UTF-8";
+h1 {
+  text-align: center;
+}
+
 .video-escuela {
   width: 800px;
   height: 600px;
@@ -31,6 +35,13 @@
 body {
   background-color: rgba(23, 21, 21, 0.875);
 }
+body img {
+  max-width: 100%;
+}
+body * {
+  margin: 0;
+  padding: o;
+}
 
 @media screen and (max-width: 768px) {
   body {
@@ -49,6 +60,7 @@ header {
   background-repeat: no-repeat;
 }
 
+/*empieza docentes*/
 .docentes {
   display: grid;
   grid-template-columns: 4, 1fr;
@@ -57,12 +69,29 @@ header {
   border: solid 2px rgb(245, 245, 245);
 }
 
+h1 {
+  color: blanchedalmond;
+}
+
 .foto-profe {
   height: 12rem;
   width: 12rem;
 }
 
+/*empieza muestras*/
+h1 {
+  color: blanchedalmond;
+}
+
 /*Acá empieza contactos versión desktop */
+h1 {
+  color: blanchedalmond;
+}
+
+h2 {
+  color: rgb(230, 211, 214);
+}
+
 .caja-mala {
   border: solid 0.2rem;
   padding: 4rem;

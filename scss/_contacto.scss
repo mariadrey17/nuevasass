@@ -13,6 +13,9 @@
   overflow:visible;
   background-image:linear-gradient(to left ,grey, rgb(226, 96, 117)) ;
 }
+.caja-flex {
+  display: flex;
+}
 .card {
   border:solid .1rem pink ;
   width:20rem ;
@@ -21,10 +24,7 @@
    
 }
 
-.caja-flex {
-  display: flex;
-}
-
+.card_image
 .adulg {
   border:solid .1rem pink ;
   width:20rem ;
@@ -49,7 +49,7 @@ div {
 }
 
 .card_image {
-  width:20rem ;
+  width:16rem ;
   height:20rem ;
 }
 .boton {
@@ -88,14 +88,15 @@ align-items: center;
 
 @media screen and (max-width:768px) 
 {
-  
+
   .card {
   
    width:100px;
 
   }
   .card_image {
-    height: 150px;
+    width: 11rem;
+    height:12rem;
   }
   
 }
@@ -119,7 +120,7 @@ align-items: center;
   }
 
   .card_image {
-  width:400px;
+  width:15rem;
   height: 283px;
   }
   .mapa {

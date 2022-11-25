@@ -54,7 +54,6 @@ header {
 .card {
   border: solid 0.1rem pink;
   width: 20rem;
-  height: 34rem;
   padding: 2rem;
   position: relative;
 }
@@ -67,6 +66,7 @@ header {
   border: solid 0.1rem pink;
   width: 20rem;
   padding: 2rem;
+  position: relative;
 }
 
 div {
@@ -122,7 +122,9 @@ form {
     flex-direction: column;
   }
   .card {
-    width: 200px;
+    width: 20rem;
+    height: 22rem;
+    padding: 2rem;
   }
   .card_image {
     width: 400px;

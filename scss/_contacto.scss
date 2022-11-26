@@ -115,7 +115,7 @@ align-items: center;
 
 /*media querie para dispositivos pequeños contacto */
 
-@media screen and (max-width:$pantalla-pequeña) 
+@media screen and (max-width:$pantalla-mobile) 
 {
   .caja-flex {
   @include  flex-column;

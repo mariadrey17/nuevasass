@@ -1,4 +1,10 @@
-
+/* Error: expected ";".
+ *    ,
+ * 16 |     flex-direction:column;
+ *    |                   ^
+ *    '
+ *   scss\_variables.scss 16:19  @import
+ *   scss\styles.scss 2:10       root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",

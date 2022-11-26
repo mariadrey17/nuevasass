@@ -54,8 +54,9 @@ div {
 }
 
 .card_image {
-  width:16rem ;
-  height:20rem ;
+
+  @include sizes (16rem,20rem);
+ 
 }
 .boton {
   padding :1rem;
@@ -108,10 +109,8 @@ align-items: center;
 
   }
   .card_image {
-    width: 11rem;
-    height:12rem;
-  }
-  
+    @include sizes (11rem,12rem);
+    
 }
 
 /*media querie para dispositivos pequeños contacto */
@@ -119,21 +118,22 @@ align-items: center;
 @media screen and (max-width:$pantalla-pequeña) 
 {
   .caja-flex {
-  @include  flex-column;
+  @include  flex;
   }
   .card {
+
+
  
-   
-    width: 20rem;
-    height: 25rem;
+    @include sizes (20rem,25rem);
+  
     padding: 2rem;
     
 
   }
 
   .card_image {
-  width:15rem;
-  height: 283px;
+    @include sizes (15rem,28rem);
+
   }
   .mapa {
   width: 352px;

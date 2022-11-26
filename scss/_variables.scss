@@ -9,9 +9,16 @@ $h2-color:rgb(230, 211, 214);
 $pantalla-pequeña:460px;
 $pantalla-mediana:768px;
 $pantala-grande:auto;
-/*mixin*/
-@mixin flex-column { 
-display:flex,
-flex-direction:column;
-}
 
+@mixin flex {
+    
+    display:flex,
+    flex-direction:column;
+        }
+
+/*mixin sizes*/
+@mixin sizes ($width,$height) {
+    width:$width ;
+    height:$height;
+    
+}

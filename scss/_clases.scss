@@ -37,8 +37,11 @@ table {
     }
     .container-table {
     border: solid 1px  blanchedalmond;
-    width: 361px;
-    height: 817px ;
+    @include sizes (361px,817px) 
+  
     }
-   
-  }
+    
+ 
+      }
+     
+  

@@ -32,7 +32,7 @@ h1 {
   
   .galeria {
     /*puedo hacer algo con grid en galeria*/
-    @include  flex-column;
+    @include  flex;
     
   
     width: 536px;

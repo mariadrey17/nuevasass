@@ -18,7 +18,7 @@ table {
   .container-table {
     border: solid 1px  blanchedalmond;
     width: 622px;
-    height: 817px ;
+    height: 1380px ;
     }
   .container-table {
     background-image: linear-gradient(to right ,rgb(39, 38, 38), rgb(226, 96, 117));
@@ -38,8 +38,9 @@ table {
 
   
     .container-table {
+   
+    @include sizes (361px,1380px) ;
     border: solid 1px  blanchedalmond;
-    @include sizes (361px,817px) ;
     
         }
     }

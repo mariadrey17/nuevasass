@@ -1,4 +1,10 @@
-
+/* Error: expected ";".
+ *    ,
+ * 14 | flex-direction:column;
+ *    |               ^
+ *    '
+ *   scss\_variables.scss 14:15  @import
+ *   scss\styles.scss 2:10       root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -8,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a    \2577 \a 16 \2502  flex-direction:column;\d\a    \2502                ^\a    \2575 \a   scss\\_variables.scss 16:15  @import\a   scss\\styles.scss 2:10       root stylesheet';
+  content: 'Error: expected ";".\a    \2577 \a 14 \2502  flex-direction:column;\d\a    \2502                ^\a    \2575 \a   scss\\_variables.scss 14:15  @import\a   scss\\styles.scss 2:10       root stylesheet';
 }

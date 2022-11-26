@@ -5,7 +5,7 @@ body {
   }
   
 footer {
-  color:$p-color
+  color: blanchedalmond;
 }    
 
 .docentes {
@@ -33,8 +33,7 @@ footer {
    }
 
    .docentes {
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     
     border: solid 2px rgb(245, 245, 245);}
 

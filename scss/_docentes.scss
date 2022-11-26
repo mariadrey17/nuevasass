@@ -1,19 +1,42 @@
 
 /*empieza docentes*/
+body {
+  background-color:$bg-body;
+  }
+  
+footer {
+  color:$p-color
+}    
+
 .docentes {
   display: grid;
-        grid-template-columns:4 , 1fr ;
-        grid-template-rows:4,1fr ;
-        grid-template-areas: 
-        "1 2";
-    border:solid 2px rgb(245, 245, 245)
-        
-        
+  grid-template-columns: 4, 1fr;
+  grid-template-rows: 4, 1fr;
+  grid-template-areas: "1 2";
+  border: solid 2px rgb(245, 245, 245);}
 
-   }
+@media screen and (max-width:$pantalla-mediana) {
+  body {
+ background-color:rgb(211, 100, 118) ;
+  }
+}
+
+
+@media screen and (max-width:$pantalla-mobile) 
+{
+  body {
+ background-color:rgb(104, 61, 68) ;
+  }
+}  
    h1 {
     color: blanchedalmond;
    }
+
+   .docentes {
+    display: flex;
+    flex-direction: column;
+    
+    border: solid 2px rgb(245, 245, 245);}
 
    .foto-profe {
 

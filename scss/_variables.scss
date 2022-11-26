@@ -10,9 +10,9 @@ $pantalla-pequeña:460px;
 $pantalla-mediana:768px;
 $pantala-grande:auto;
 
-@mixin flex {
+@mixin flex-column {
     
-    display:flex,
+    display:flex;
     flex-direction:column;
         }
 

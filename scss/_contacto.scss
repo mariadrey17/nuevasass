@@ -118,13 +118,11 @@ align-items: center;
 @media screen and (max-width:$pantalla-pequeña) 
 {
   .caja-flex {
-  @include  flex;
+  @include  flex-column;
   }
   .card {
 
-
- 
-    @include sizes (20rem,25rem);
+  @include sizes (20rem,25rem);
   
     padding: 2rem;
     
@@ -138,5 +136,5 @@ align-items: center;
   .mapa {
   width: 352px;
   }
+}  
 }
-  

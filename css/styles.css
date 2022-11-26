@@ -1,10 +1,10 @@
-/* Error: expected ";".
- *    ,
- * 16 |     flex-direction:column;
- *    |                   ^
- *    '
- *   scss\_variables.scss 16:19  @import
- *   scss\styles.scss 2:10       root stylesheet */
+/* Error: Undefined variable.
+ *   ,
+ * 8 |   color:$p-color
+ *   |         ^^^^^^^^
+ *   '
+ *   scss\_docentes.scss 8:9  @import
+ *   scss\styles.scss 5:10    root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a    \2577 \a 16 \2502      flex-direction:column;\d\a    \2502                    ^\a    \2575 \a   scss\\_variables.scss 16:19  @import\a   scss\\styles.scss 2:10       root stylesheet';
+  content: "Error: Undefined variable.\a   \2577 \a 8 \2502    color:$p-color\d\a   \2502          ^^^^^^^^\a   \2575 \a   scss\\_docentes.scss 8:9  @import\a   scss\\styles.scss 5:10    root stylesheet";
 }

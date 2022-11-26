@@ -33,15 +33,21 @@ table {
   @media screen and (max-width:460px) 
   {
     .foto-clase {
-    width:300px ;
-    }
+      width:350px;
+        }
+
+  
     .container-table {
     border: solid 1px  blanchedalmond;
-    @include sizes (361px,817px) 
-  
+    @include sizes (361px,817px) ;
+    
+        }
     }
+  
+    
+
     
  
-      }
+      
      
   

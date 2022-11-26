@@ -1,10 +1,10 @@
 /* Error: Undefined variable.
  *    ,
- * 25 | @media screen and (max-width:$pantalla-mobile) 
- *    |                              ^^^^^^^^^^^^^^^^
+ * 42 |   @media screen and (max-width:$pantalla-mobile) 
+ *    |                                ^^^^^^^^^^^^^^^^
  *    '
- *   scss\_docentes.scss 25:30  @import
- *   scss\styles.scss 5:10      root stylesheet */
+ *   scss\_inicio.scss 42:32  @import
+ *   scss\styles.scss 4:10    root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 25 \2502  @media screen and (max-width:$pantalla-mobile) \d\a    \2502                               ^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\_docentes.scss 25:30  @import\a   scss\\styles.scss 5:10      root stylesheet";
+  content: "Error: Undefined variable.\a    \2577 \a 42 \2502    @media screen and (max-width:$pantalla-mobile) \d\a    \2502                                 ^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\_inicio.scss 42:32  @import\a   scss\\styles.scss 4:10    root stylesheet";
 }

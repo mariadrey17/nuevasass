@@ -21,6 +21,8 @@ body {
     footer { 
         @extend .footer ;
     }
+
+    .botones-generales
   
 
     @media screen and (max-width:$pantalla-mediana) {

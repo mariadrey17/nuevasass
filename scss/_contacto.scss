@@ -62,8 +62,7 @@ div {
  
 }
 .boton {
-  padding :1rem;
-  margin-bottom:5rem ;
+ @extend .botones-generales ;
 }
 
 .mapa {
@@ -103,21 +102,7 @@ align-items: center;
   font-weight:bold;
   padding: 5px 15px;
  }
- .contenedor-botones a {
-  display:none ;
- }
- #facebook,
- #whatsapp {
-  display:none ;
- }
-#facebook :checked ~ .contenedor-botones a .boton-facebook  {
-  display: block;
 
-}
-
-#whatsapp :checked ~ .contenedor-botones a .boton-whatsapp {
-  display:block;
-}
 
 
 
@@ -157,6 +142,12 @@ align-items: center;
 {
   .caja-flex {
   @include  flex-column;
+  }
+
+  .card-muestra {
+    width:243px; ;
+
+    height:667px;
   }
   .card {
 

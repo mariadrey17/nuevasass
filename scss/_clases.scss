@@ -36,14 +36,15 @@ table {
       width:350px;
         }
 
-  
-    .container-table {
-   
-    @include sizes (30rem,30rem) ;
+      .container-table {
+        border: solid 1px  blanchedalmond;
+      
+        @include sizes(25rem,89rem) ;
+        }
  
     
         }
-    }
+    
   
     
 

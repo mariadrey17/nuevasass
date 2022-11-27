@@ -18,7 +18,11 @@ header {
   background-repeat: no-repeat;
 }
 
-.botones-generales, .card-muestra {
+.nav-item:first-of-type {
+  background-color: rgb(252, 212, 225);
+}
+
+.botones-generales, .boton, .card-muestra {
   padding: 1rem;
   margin-bottom: 5rem;
 }
@@ -143,8 +147,9 @@ ol {
     width: 350px;
   }
   .container-table {
-    width: 30rem;
-    height: 30rem;
+    border: solid 1px blanchedalmond;
+    width: 25rem;
+    height: 89rem;
   }
 }
 /*empieza muestras*/
@@ -259,11 +264,6 @@ div {
   height: 20rem;
 }
 
-.boton {
-  padding: 1rem;
-  margin-bottom: 5rem;
-}
-
 .mapa {
   margin-top: 2rem;
 }
@@ -298,23 +298,6 @@ form {
   padding: 5px 15px;
 }
 
-.contenedor-botones a {
-  display: none;
-}
-
-#facebook,
-#whatsapp {
-  display: none;
-}
-
-#facebook :checked ~ .contenedor-botones a .boton-facebook {
-  display: block;
-}
-
-#whatsapp :checked ~ .contenedor-botones a .boton-whatsapp {
-  display: block;
-}
-
 /* media querie para dispositivos moviles medianos contacto*/
 @media screen and (max-width: 768px) {
   .caja-flex {
@@ -340,6 +323,10 @@ form {
   .caja-flex {
     display: flex;
     flex-direction: column;
+  }
+  .card-muestra {
+    width: 243px;
+    height: 667px;
   }
   .card {
     width: 20rem;

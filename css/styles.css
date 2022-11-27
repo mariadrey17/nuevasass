@@ -18,6 +18,11 @@ header {
   background-repeat: no-repeat;
 }
 
+.botones-generales {
+  padding: 1rem;
+  margin-bottom: 5rem;
+}
+
 @media screen and (max-width: 768px) {
   body {
     background-color: rgb(226, 107, 127);

@@ -5,9 +5,8 @@ h1 {
 }
 
 .card-muestra{
-  @extend.boton ;
-    padding :1rem;
-    margin-bottom:5rem ;
+  @extend.botones-generales ;
+   
   }
 
   

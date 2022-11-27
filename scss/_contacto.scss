@@ -6,6 +6,9 @@ h1 {
 h2 {
   color:$h2-color
 }
+h4 {
+  text-align: center;
+}
 
 .caja-mala {
   border:solid 0.20rem ;
@@ -84,8 +87,24 @@ align-items: center;
   
 } 
 
+.contenedor-opciones 
+{
+  @include flex-column;
+  align-items: center;
+}
+.contenedor-labels {
+  display:flex;
+  gap:30px;
+}
 
-  
+.boton-comunicacion {
+  background-color:rgb(224, 104, 124) ;
+  color:rgb(59, 58, 58);
+  font-weight:bold;
+  padding: 5px 15px;
+ }
+
+
 
 
 
@@ -111,6 +130,11 @@ align-items: center;
   .card_image {
     @include sizes (11rem,12rem);
     
+}
+.boton-comunicacion {
+  background-color:rgb(233, 229, 229) ;
+  color:black;
+}
 }
 
 /*media querie para dispositivos pequeños contacto */

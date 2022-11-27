@@ -22,7 +22,10 @@ body {
         @extend .footer ;
     }
 
-    .botones-generales
+    .botones-generales {
+        padding :1rem;
+        margin-bottom:5rem;
+    }
   
 
     @media screen and (max-width:$pantalla-mediana) {

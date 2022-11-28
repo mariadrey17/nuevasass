@@ -64,7 +64,7 @@ body {
                 
              @if $fiesta==navidad{
                 background-image:url(../img/navidadmediana.jpeg);
-             }@else if { background-image: url(../img/fondo.jpg);
+             }@else { background-image: url(../img/fondo.jpg);
      }
     }
     }
@@ -75,4 +75,11 @@ body {
         body {
        background-color:rgb(104, 61, 68) ;
         }
+        header {
+                
+            @if $fiesta==navidad{
+               background-image:url(../img/navidadpequeña.jpeg);
+            }@else { background-image: url(../img/fondo.jpg);
+    }
+   }
      }  

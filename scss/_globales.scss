@@ -7,19 +7,18 @@ body {
       padding: o;
     }
 
-     if $fiesta==pascuas {
-        background-color:gold ;
+     @if $fiesta ==pascuas {
+        background-color: gold ;
     
         }@else if $fiesta==padre {
             background-color:blue;
         }@else if $fiesta==navidad{
-            background-image:linear-gradient(to left ,red, green);}
+            background-image:linear-gradient(to left ,rgb(121, 8, 8), rgb(3, 32, 3));}
         @else  {
         background-color:grey;  
             
         }
-        
-    }
+     }
     
 
  
@@ -30,6 +29,18 @@ body {
         background-attachment:fixed;
         background-repeat:no-repeat ;
         
+        @if $fiesta==pascuas {
+            background-color: gold ;
+        
+            }@else if $fiesta==padre {
+                background-image: url(../img/fatherday.jpg);
+                height: 50rem;
+            }@else if $fiesta==navidad{
+                background-image:url(../img/navidad.webp);
+                height: 50rem;}
+            @else  {
+           background-image: url(../img/fondo.jpg);
+            }
         }
 
         .nav-item:first-of-type {
@@ -48,7 +59,15 @@ body {
         body {
        background-color:rgb(226, 107, 127) ;
         }
+
+        header {
+                
+             @if $fiesta==navidad{
+                background-image:url(../img/navidadmediana.jpeg);
+             }@else if { background-image: url(../img/fondo.jpg);
      }
+    }
+    }
     
     
     @media screen and (max-width :$pantalla-mobile) 

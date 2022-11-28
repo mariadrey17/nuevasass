@@ -1,9 +1,9 @@
 /* Error: This at-rule is not allowed here.
  *    ,
- * 13 |         }@else if $fiesta==padre {
- *    |          ^^^^^^^^^^^^^^^^^^^^^^^^
+ * 65 |             @else if $fiesta==navidad{
+ *    |             ^^^^^^^^^^^^^^^^^^^^^^^^^
  *    '
- *   scss\_globales.scss 13:10  @import
+ *   scss\_globales.scss 65:13  @import
  *   scss\styles.scss 3:10      root stylesheet */
 
 body::before {
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: This at-rule is not allowed here.\a    \2577 \a 13 \2502          }@else if $fiesta==padre {\d\a    \2502           ^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\_globales.scss 13:10  @import\a   scss\\styles.scss 3:10      root stylesheet";
+  content: "Error: This at-rule is not allowed here.\a    \2577 \a 65 \2502              @else if $fiesta==navidad{\d\a    \2502              ^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\_globales.scss 65:13  @import\a   scss\\styles.scss 3:10      root stylesheet";
 }

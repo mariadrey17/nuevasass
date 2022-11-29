@@ -30,9 +30,11 @@ body {
         background-repeat:no-repeat ;
         
         @if $fiesta==pascuas {
-            background-image: url(../img/pascuas.jpg) ;
+            background-image: url(../img/pascuas.jpg);
+    
+        }
         
-            }@else if $fiesta==padre {
+            @else if $fiesta==padre {
                 background-image: url(../img/fatherday.jpg);
                 height: 50rem;
             }@else if $fiesta==navidad{
@@ -41,7 +43,8 @@ body {
             @else  {
            background-image: url(../img/fondo.jpg);
             }
-        }
+            }
+        
 
         .nav-item:first-of-type {
             background-color:rgb(252, 212, 225);

@@ -93,3 +93,18 @@ body {
     }
    }
      }  
+
+
+     /*mapas*/
+     $redessociales:(
+        twitter:blue ,
+        facebook: #3a5795 ,
+        send-email:#C25E30,
+     );
+     /*creando el bucle para usar valores en el mapa*/
+     @each $redsocial,$color in $redessociales {
+        .btn--#{$redsocial}{
+            background-color:$color ;
+        }
+        
+     }

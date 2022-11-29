@@ -48,6 +48,20 @@ header {
     background-image: url(../img/navidadpequeña.jpeg);
   }
 }
+/*mapas*/
+/*creando el bucle para usar valores en el mapa*/
+.btn--twitter {
+  background-color: blue;
+}
+
+.btn--facebook {
+  background-color: #3a5795;
+}
+
+.btn--send-email {
+  background-color: #C25E30;
+}
+
 h1 {
   text-align: center;
 }

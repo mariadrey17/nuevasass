@@ -4,10 +4,10 @@ body {
     }
     * {
       margin: 0;
-      padding: o;
+      padding:0;
     }
 
-     @if $fiesta ==pascuas {
+     @if$fiesta == pascuas {
         background-color: gold ;
     
         }@else if $fiesta==padre {

@@ -1,6 +1,6 @@
 /* Error: Undefined variable.
  *    ,
- * 10 |      @if$fiesta == pascuas {
+ * 10 |     @if $fiesta==pascuas {
  *    |         ^^^^^^^
  *    '
  *   scss\_globales.scss 10:9  @import
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 10 \2502       @if$fiesta == pascuas {\d\a    \2502          ^^^^^^^\a    \2575 \a   scss\\_globales.scss 10:9  @import\a   scss\\styles.scss 3:10     root stylesheet";
+  content: "Error: Undefined variable.\a    \2577 \a 10 \2502      @if $fiesta==pascuas {\d\a    \2502          ^^^^^^^\a    \2575 \a   scss\\_globales.scss 10:9  @import\a   scss\\styles.scss 3:10     root stylesheet";
 }

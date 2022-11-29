@@ -7,7 +7,7 @@ body {
       padding:0;
     }
 
-     @if$fiesta == pascuas {
+    @if $fiesta==pascuas {
         background-color: gold ;
     
         }@else if $fiesta==padre {
@@ -30,7 +30,7 @@ body {
         background-repeat:no-repeat ;
         
         @if $fiesta==pascuas {
-            background-color: gold ;
+            background-image: url(../img/pascuas.jpg) ;
         
             }@else if $fiesta==padre {
                 background-image: url(../img/fatherday.jpg);

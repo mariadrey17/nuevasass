@@ -35,7 +35,11 @@ footer {
    .docentes {
     @include flex-column;
     
-    border: solid 2px rgb(245, 245, 245);}
+    border: solid 2px rgb(245, 245, 245);
+   }
+   .data-aos {
+    animation-duration: 10s; 
+   }
 
    .foto-profe {
 
@@ -44,3 +48,5 @@ footer {
   
 
     }
+
+    

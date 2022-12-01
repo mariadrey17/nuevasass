@@ -1,0 +1,18 @@
+/* Error: Undefined variable.
+ *     ,
+ * 156 |     padding:calc($separacion-8rem);
+ *     |                  ^^^^^^^^^^^^^^^^
+ *     '
+ *   scss\_contacto.scss 156:18  @import
+ *   scss\styles.scss 8:10       root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a     \2577 \a 156 \2502      padding:calc($separacion-8rem);\d\a     \2502                   ^^^^^^^^^^^^^^^^\a     \2575 \a   scss\\_contacto.scss 156:18  @import\a   scss\\styles.scss 8:10       root stylesheet";
+}

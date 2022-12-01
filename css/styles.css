@@ -140,6 +140,10 @@ h1 {
   border: solid 2px rgb(245, 245, 245);
 }
 
+.data-aos {
+  animation-duration: 10s;
+}
+
 .foto-profe {
   width: 12rem;
   height: 12rem;

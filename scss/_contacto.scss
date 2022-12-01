@@ -26,8 +26,8 @@ h4 {
 }
 .card {
   border:solid .1rem pink ;
-  width:20rem ;
-  padding:2rem;
+  width:calc($separacion + 10rem) ;
+  padding:calc($separacion - 8rem);
   position:relative;
    
 }
@@ -153,7 +153,8 @@ align-items: center;
 
   @include sizes (20rem,25rem);
   
-    padding: 2rem;
+  padding:2rem;
+   
     
 
   }

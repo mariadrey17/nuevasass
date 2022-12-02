@@ -36,6 +36,14 @@ header {
   animation-duration: 10s;
 }
 
+.nav-item {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
 .botones-generales, .boton, .card-muestra {
   padding: 1rem;
   margin-bottom: 5rem;
@@ -254,6 +262,11 @@ h2 {
 
 h4 {
   text-align: center;
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.8rem;
 }
 
 .caja-mala {
@@ -316,12 +329,14 @@ form {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  font-size: 1.5rem;
 }
 
 .contenedor-opciones {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 1.5rem;
 }
 
 .contenedor-labels {

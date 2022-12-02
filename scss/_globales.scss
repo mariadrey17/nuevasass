@@ -27,7 +27,11 @@ body {
     }
      }
     
-
+     h1 {
+        animation-duration: 6s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+      }
  
    
     header {

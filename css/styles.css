@@ -29,6 +29,10 @@ header {
   height: 50rem;
 }
 
+.nav-item :hover {
+  color: rgb(252, 69, 99);
+}
+
 .data-aos {
   animation-duration: 10s;
 }

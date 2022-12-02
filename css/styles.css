@@ -23,8 +23,8 @@ header {
   height: 50rem;
 }
 
-.nav-item:first-of-type {
-  background-color: rgb(252, 212, 225);
+.data-aos {
+  animation-duration: 10s;
 }
 
 .botones-generales, .boton, .card-muestra {
@@ -138,10 +138,6 @@ h1 {
   display: flex;
   flex-direction: column;
   border: solid 2px rgb(245, 245, 245);
-}
-
-.data-aos {
-  animation-duration: 10s;
 }
 
 .foto-profe {

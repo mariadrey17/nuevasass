@@ -29,6 +29,7 @@ h4 {
 }
 .card {
   border:solid .1rem pink ;
+  background-color:#E69867 ;
   width:calc($separacion + 10rem) ;
   padding:calc($separacion - 8rem);
   position:relative;
@@ -57,6 +58,7 @@ div {
 .card_parrafo {
   font-size:$fuente-chica;
   margin-bottom:2rem ;
+  color:#241D0C ;
 }
 
 .card_image {

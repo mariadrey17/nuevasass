@@ -287,6 +287,7 @@ h5 {
 
 .card {
   border: solid 0.1rem pink;
+  background-color: #E69867;
   width: 20rem;
   padding: 2rem;
   position: relative;
@@ -308,6 +309,7 @@ div {
 .card_parrafo {
   font-size: 1rem;
   margin-bottom: 2rem;
+  color: #241D0C;
 }
 
 .card_image {

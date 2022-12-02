@@ -1,11 +1,12 @@
-$bg-body:rgba(23, 21, 21, 0.875);
+$bg-body:#5E646B;
 $bg-header:url(../img/fondo.jpg);
 $titulos-secundarios: "Roboto", sans-serif;
 $fuente-mediana:2rem;
 $fuente-chica:1rem;
 $bg-imagen:url(../img/fondo.jpg);
-$h1-color:blanchedalmond;
-$h2-color:rgb(230, 211, 214);
+$h1-color:#F7F4D5;
+$h2-color:#F2CBD0;
+$h3-color:#F2EFD0;
 $pantalla-mobile:460px;
 $pantalla-mediana:768px;
 $pantala-grande:auto;
@@ -28,7 +29,7 @@ $separacion:10rem;
 
 /*variable para fiestas*/
 
-$fiestas:else;
+$fiestas:$bg-body;
 
 
 

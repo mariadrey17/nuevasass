@@ -22,7 +22,7 @@ body {
     }
 
     @else {
-        background-color: grey;
+        background-color: $bg-body;
 
     }
      }
@@ -75,7 +75,7 @@ body {
 
     @media screen and (max-width:$pantalla-mediana) {
         body {
-       background-color:rgb(226, 107, 127) ;
+       background-color:#FC7EA8 ;
         }
 
         header {
@@ -91,7 +91,7 @@ body {
     @media screen and (max-width :$pantalla-mobile) 
     {
         body {
-       background-color:rgb(104, 61, 68) ;
+       background-color:#914159 ;
         }
         header {
                 

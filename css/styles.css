@@ -38,6 +38,7 @@ header {
 
 .nav-item {
   font-size: 2rem;
+  color: #DBE5F7;
 }
 
 p {
@@ -121,6 +122,10 @@ h1 {
   }
 }
 /*empieza docentes*/
+.style {
+  background-image: url(../img/pincelada.jpg);
+}
+
 body {
   background-color: #5E646B;
 }

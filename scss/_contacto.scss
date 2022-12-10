@@ -26,14 +26,21 @@ h4 {
 }
 .caja-flex {
   display: flex;
+  box-shadow: 0px 2px 10px pink ;
+  cursor:default;
+  transition: all 400ms ease;
 }
 .card {
   border:solid .1rem pink ;
   background-color:#E69867 ;
   width:calc($separacion + 10rem) ;
   padding:calc($separacion - 8rem);
-  position:relative;
+  position: relative;
    
+}
+.caja-flex :hover {
+  box-shadow: 5px 5px 20px pink ;
+ transform: translateY(-3%);
 }
 
 .card_image

@@ -36,6 +36,17 @@ h1 {
     }
    to  {background-position:100%,100%; }
   } }
+
+  .caja-art {
+    box-shadow: 0px 2px 10px pink ;
+    cursor:default;
+    transition: all 400ms ease;
+  }
+
+  .caja-art :hover {
+    box-shadow: 5px 5px 20px pink ;
+    transform: translateY(-3%);
+  }
   .galeria {
     /*puedo hacer algo con grid en galeria*/
     @include  flex-column;

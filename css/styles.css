@@ -179,12 +179,21 @@ footer {
 
 .docentes {
   display: grid;
-  grid-template-columns: 4, 1fr;
+  grid-template-columns: 2, 1fr;
   grid-template-rows: 4, 1fr;
   grid-template-areas: "1 2";
   border: solid 2px rgb(245, 245, 245);
 }
 
+.titulo-profe1 {
+  text-align: start;
+}
+
+.titulo-profe2 {
+  text-align: end;
+}
+
+/*mediaquery dispositivos medianos */
 @media screen and (max-width: 768px) {
   body {
     background-color: rgb(211, 100, 118);

@@ -99,6 +99,9 @@ font-size: 1.5rem;
   
 } 
 
+#escribe-formulario {
+  text-align: center;
+}
 .contenedor-opciones 
 {
   @include flex-column;

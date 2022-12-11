@@ -10,14 +10,11 @@
     color: bisque;
   }
   .video-escuela {
-    width: 800px; 
-    height: 600px;
+    width: 100%; 
+    height: 735px;
 
  }
-
- .video-escuela {
-  justify-items: center;
- }
+  
 
 
   .info-escuela {
@@ -47,31 +44,41 @@
       color: blanchedalmond;
 
     }
+    .d-block {
+      @include flex-column;
+  align-items: center;
+    
+    }
+    .redes {
+      @include flex-column;
+      align-items: center;
+        
+      text-align: center;
+      margin-bottom:3rem ;
+    }
   
    /*Index dispositivos medianos*/
   
      .nav-toggler {
       color: aliceblue;
      }
-    @media screen and (max-width:$pantalla-mediana) {
-      .video-escuela {
-        width: 400px;
-        height:300px;
-        display: flex;
-        justify-content:center;
-      
-       
-       }
-   }
-  /*Index dispositivos pequeños*/
+
+  @media screen and (max-width:$pantalla-mediana) 
+{
+.video-escuela {
   
-  @media screen and (max-width:$pantalla-mobile) 
-  {
-    .video-escuela {
-      width: 250px;
-      height:300px;
-      }
-     
-   }  
-  
+  height:437px;
+  }
  
+}  
+  
+/*Index dispositivos pequeños*/
+
+@media screen and (max-width:$pantalla-mobile) 
+{
+.video-escuela {
+  
+  height:282px;
+  }
+ 
+}  

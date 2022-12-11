@@ -74,9 +74,7 @@ body {
             color:#DBE5F7;
         }
 
-        button.navbar-toggler {
-            color:#DBE5F7;
-        }
+       
 
         p {
             font-size:1.5rem;
@@ -132,4 +130,28 @@ body {
             background-color:$color ;
         }
         
+     }
+
+     /*mediaquery dispositivos medianos*/
+
+     @media screen and (max-width:$pantalla-mediana)  {
+        
+        .navbar-toggler-icon{
+            color:#DBE5F7;
+        }
+        button.collapse navbar-collapse {
+            color:#DBE5F7;
+        }
+     }
+
+     /*mediaquery dispositivos pequeños*/
+     
+     @media screen and (max-width:$pantalla-mobile)  {
+        
+        .navbar-toggler-icon{
+            color:#DBE5F7;
+        }
+        button.collapse navbar-collapse {
+            color:#DBE5F7;
+        }
      }

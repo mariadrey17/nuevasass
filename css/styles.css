@@ -41,10 +41,6 @@ header {
   color: #DBE5F7;
 }
 
-button.navbar-toggler {
-  color: #DBE5F7;
-}
-
 p {
   font-size: 1.5rem;
 }
@@ -84,6 +80,16 @@ p {
   background-color: #C25E30;
 }
 
+/*mediaquery dispositivos medianos*/
+@media screen and (max-width: 768px) {
+  .navbar-toggler-icon {
+    color: #DBE5F7;
+  }
+  button.collapse navbar-collapse {
+    color: #DBE5F7;
+  }
+}
+/*mediaquery dispositivos medianos*/
 h1 {
   text-align: center;
 }

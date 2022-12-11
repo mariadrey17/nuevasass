@@ -89,7 +89,15 @@ p {
     color: #DBE5F7;
   }
 }
-/*mediaquery dispositivos medianos*/
+/*mediaquery dispositivos pequeños*/
+@media screen and (max-width: 460px) {
+  .navbar-toggler-icon {
+    color: #DBE5F7;
+  }
+  button.collapse navbar-collapse {
+    color: #DBE5F7;
+  }
+}
 h1 {
   text-align: center;
 }
@@ -102,8 +110,11 @@ h1 {
   width: 800px;
   height: 600px;
   display: flex;
-  justify-content: center;
-  align-content: center;
+  align-items: center;
+}
+
+.info-escuela {
+  text-align: center;
 }
 
 .grid {

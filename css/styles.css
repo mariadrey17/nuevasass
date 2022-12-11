@@ -41,6 +41,10 @@ header {
   color: #DBE5F7;
 }
 
+button.navbar-toggler {
+  color: #DBE5F7;
+}
+
 p {
   font-size: 1.5rem;
 }
@@ -91,6 +95,9 @@ h1 {
 .video-escuela {
   width: 800px;
   height: 600px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .grid {
@@ -112,6 +119,8 @@ h1 {
   .video-escuela {
     width: 400px;
     height: 300px;
+    display: flex;
+    justify-content: center;
   }
 }
 /*Index dispositivos pequeños*/

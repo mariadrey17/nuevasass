@@ -12,6 +12,9 @@
   .video-escuela {
     width: 800px; 
     height: 600px;
+    display: flex;
+    justify-content:center;
+    align-content: center;
   }
   
   .grid  {
@@ -40,6 +43,9 @@
       .video-escuela {
         width: 400px;
         height:300px;
+        display: flex;
+        justify-content:center;
+      
        
        }
    }

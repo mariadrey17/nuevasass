@@ -12,9 +12,14 @@
   .video-escuela {
     width: 800px; 
     height: 600px;
-    display: flex;
-   align-items: center;
-  }
+
+ }
+
+ .video-escuela {
+  justify-items: center;
+ }
+
+
   .info-escuela {
     text-align: center;
   }
@@ -32,7 +37,12 @@
   
     border:solid 2px rgb(245, 245, 245)
     }
-
+    .linkredes {
+      
+        color: aliceblue;
+      
+      text-decoration: none;
+    }
     .footer p { 
       color: blanchedalmond;
 
@@ -40,7 +50,9 @@
   
    /*Index dispositivos medianos*/
   
-  
+     .nav-toggler {
+      color: aliceblue;
+     }
     @media screen and (max-width:$pantalla-mediana) {
       .video-escuela {
         width: 400px;

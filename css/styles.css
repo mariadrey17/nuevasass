@@ -109,8 +109,10 @@ h1 {
 .video-escuela {
   width: 800px;
   height: 600px;
-  display: flex;
-  align-items: center;
+}
+
+.video-escuela {
+  justify-items: center;
 }
 
 .info-escuela {
@@ -127,11 +129,20 @@ h1 {
   border: solid 2px rgb(245, 245, 245);
 }
 
+.linkredes {
+  color: aliceblue;
+  text-decoration: none;
+}
+
 .footer p {
   color: blanchedalmond;
 }
 
 /*Index dispositivos medianos*/
+.nav-toggler {
+  color: aliceblue;
+}
+
 @media screen and (max-width: 768px) {
   .video-escuela {
     width: 400px;
@@ -193,6 +204,17 @@ h1 {
   height: 12rem;
 }
 
+/*mediaquery medianos*/
+@media screen and (max-width: 768px) {
+  .navbar-toggler {
+    color: aliceblue;
+    border: solid 2px white;
+    border-color: solid 2px rgb(245, 242, 242);
+  }
+  .navbar-toggler-icon {
+    background-color: white;
+  }
+}
 /*empieza clases*/
 .container {
   border: solid 2px white;

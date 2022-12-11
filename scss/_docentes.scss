@@ -51,4 +51,16 @@ footer {
 
     }
 
+    /*mediaquery medianos*/
+    @media screen and (max-width:$pantalla-mediana) {
+      .navbar-toggler {
+        color: aliceblue;
+        border: solid 2px white;
+        border-color:solid 2px  rgb(245, 242, 242);
+      }
+      .navbar-toggler-icon{
+        background-color:white ;
+      }
+    }
+
     

@@ -26,6 +26,10 @@ header {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-image: url(../img/fondo.jpg);
+  /*mapas*/
+  /*creando el bucle para usar valores en el mapa*/
+  /*mediaquery dispositivos medianos*/
+  /*mediaquery dispositivos pequeños*/
 }
 header .buscar {
   position: absolute;
@@ -42,77 +46,79 @@ header .buscar input {
   border: 1px solid silver;
   border-radius: 30px;
 }
-
-.nav-item :hover {
+header .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #FC7EA8;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  color: #DBE5F7;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -3px;
+}
+header .nav-item :hover {
   color: rgb(252, 69, 99);
 }
-
-.data-aos {
+header .data-aos {
   animation-duration: 10s;
 }
-
-.nav-item {
+header .nav-item {
   font-size: 2rem;
   color: #DBE5F7;
 }
-
-p {
+header p {
   font-size: 1.5rem;
 }
-
-.botones-generales, .boton, .card-muestra {
+header .botones-generales, header .boton, header .card-muestra {
   padding: 1rem;
   margin-bottom: 5rem;
 }
-
 @media screen and (max-width: 768px) {
-  body {
+  header body {
     background-color: #FC7EA8;
   }
-  header {
+  header header {
     background-image: url(../img/fondo.jpg);
   }
 }
 @media screen and (max-width: 460px) {
-  body {
+  header body {
     background-color: #914159;
   }
-  header {
+  header header {
     background-image: url(../img/fondo.jpg);
   }
 }
-/*mapas*/
-/*creando el bucle para usar valores en el mapa*/
-.btn--twitter {
+header .btn--twitter {
   background-color: blue;
 }
-
-.btn--facebook {
+header .btn--facebook {
   background-color: #3a5795;
 }
-
-.btn--send-email {
+header .btn--send-email {
   background-color: #C25E30;
 }
-
-/*mediaquery dispositivos medianos*/
 @media screen and (max-width: 768px) {
-  .navbar-toggler-icon {
+  header .navbar-toggler-icon {
     color: #DBE5F7;
   }
-  button.collapse navbar-collapse {
+  header button.collapse navbar-collapse {
     color: #DBE5F7;
   }
 }
-/*mediaquery dispositivos pequeños*/
 @media screen and (max-width: 460px) {
-  .navbar-toggler-icon {
+  header .navbar-toggler-icon {
     color: #DBE5F7;
   }
-  button.collapse navbar-collapse {
+  header button.collapse navbar-collapse {
     color: #DBE5F7;
   }
 }
+
 h1 {
   text-align: center;
 }

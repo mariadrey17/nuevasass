@@ -71,7 +71,21 @@ body {
                 border: 1px solid silver;
                 border-radius: 30px;
             }
-            }
+         .btn {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: #FC7EA8;
+            width: 55px;
+            height: 55px;
+            line-height: 55px;
+            text-align: center;
+            color: #DBE5F7;
+            border-radius: 50%;
+            cursor:pointer ;
+            margin-top:-3px ;
+
+         }
 
 
         
@@ -169,4 +183,5 @@ body {
         button.collapse navbar-collapse {
             color:#DBE5F7;
         }
+     }
      }

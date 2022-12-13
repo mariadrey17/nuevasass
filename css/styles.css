@@ -27,6 +27,21 @@ header {
   background-repeat: no-repeat;
   background-image: url(../img/fondo.jpg);
 }
+header .buscar {
+  position: absolute;
+  padding: 5px;
+  margin-top: -14px;
+}
+header .buscar input {
+  width: 200px;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  color: black;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 30px;
+}
 
 .nav-item :hover {
   color: rgb(252, 69, 99);

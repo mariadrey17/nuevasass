@@ -56,6 +56,21 @@ body {
             @else  {
            background-image: url(../img/fondo.jpg);
             }
+
+            .buscar{
+                position: absolute;
+                padding: 5px;
+                margin-top: -14px;
+            }
+            .buscar input {
+                @include sizes(200px,40px);
+                padding:0 20px;
+                font-size:18px;
+                color:black ;
+                outline: none;
+                border: 1px solid silver;
+                border-radius: 30px;
+            }
             }
 
 
